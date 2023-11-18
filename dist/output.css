@@ -538,8 +538,8 @@ video {
   width: 100%;
   margin-right: auto;
   margin-left: auto;
-  padding-right: 100px;
-  padding-left: 100px;
+  padding-right: 16px;
+  padding-left: 16px;
 }
 
 @media (min-width: 640px) {
@@ -969,10 +969,6 @@ video {
   line-height: 1rem;
 }
 
-.text-\[0\.75rem\] {
-  font-size: 0.75rem;
-}
-
 .font-bold {
   font-weight: 700;
 }
@@ -1026,14 +1022,6 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-.text-\[\.75\] {
-  color: .75;
-}
-
-.text-\[0\.75\] {
-  color: 0.75;
 }
 
 .opacity-60 {
